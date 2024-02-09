@@ -24,10 +24,10 @@
 4.  ##### Definición de Rutas:
 
     Utiliza el componente Route para definir las rutas y los componentes asociados a ellas dentro del componente Switch.
-    <Route exact path="/" component={Inicio} />
-    <Route path="/acerca" component={AcercaDe} />
-    <Route path="/contacto" component={Contacto} />
-    <Route component={PaginaNoEncontrada} />
+    <Route exact path="/" element={<Inicio />} />
+    <Route path="/acerca" element={<AcercaDe />} />
+    <Route path="/contacto" element={<Contacto />} />
+    <Route element={PaginaNoEncontrada} />
 
 5.  ##### Creación de Componentes
 
@@ -39,3 +39,11 @@
     <Link to="/acerca">Acerca de</Link>
 
 ##### Con estos pasos, habrás implementado la navegación utilizando 'react-router-dom' en tu aplicación ReactJS. ¡Disfruta explorando las posibilidades que ofrece para crear una experiencia de usuario fluida y dinámica!
+
+##### React Router
+
+React Router es la librería más popular para la gestión de rutas en un proyecto de React, esta tiene tres componentes esenciales:
+
+    <BrowserRouter/> → Conecta nuestra aplicación a la URL del navegador, es decir mantiene la interfaz de usuario en sincronía con la URL del navegador mediante la API History de HTML5.
+    <Route/> → Representa una ruta en el árbol, necesita al menos las siguientes propiedades path y element, para representar una ruta.
+    <Routes/> → Genera un árbol de rutas y a partir de este nos permite reemplazar la vista con el componente que coincide con la URL de nuestra barra de navegación y nos va a renderizar solamente dicho componente.
