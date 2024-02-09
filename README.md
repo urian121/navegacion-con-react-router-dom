@@ -40,6 +40,10 @@
 
 ##### Con estos pasos, habrás implementado la navegación utilizando 'react-router-dom' en tu aplicación ReactJS. ¡Disfruta explorando las posibilidades que ofrece para crear una experiencia de usuario fluida y dinámica!
 
+### resultado final
+
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/react-router-dom.png)
+
 ##### React Router
 
 React Router es la librería más popular para la gestión de rutas en un proyecto de React, esta tiene tres componentes esenciales:
